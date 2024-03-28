@@ -1,5 +1,5 @@
 {% set name = "darkgraylib" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/darkgraylib-{{ version }}.tar.gz
-  sha256: 5fdf8108cba3f3f0d1b8d39a3fd7a8e365b5b9ec5f7d40fb9452c2d8b32d027d
+  sha256: 240b993a5492b3f6f68f305a409e87d146fc55768368dd783483bda0ae38ea5d
 
 build:
   noarch: python
@@ -22,7 +22,6 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - black >=21.5b1
     - toml >=0.10.0
 
 test:
