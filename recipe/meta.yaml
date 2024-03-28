@@ -22,7 +22,6 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - black >=21.5b1
     - toml >=0.10.0
 
 test:
