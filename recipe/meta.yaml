@@ -1,5 +1,5 @@
 {% set name = "darkgraylib" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/darkgraylib-{{ version }}.tar.gz
-  sha256: f93e22d9dce5b4629c4854dd408713dd2d360aa2e9d53ffe33615c87a6676a33
+  sha256: a97b7bf61bba6db2631436d150415ccfe9b8ed504de91497ceb0a8fb61c34a8c
 
 build:
   noarch: python
